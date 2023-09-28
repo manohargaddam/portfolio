@@ -1,165 +1,130 @@
+import {} from "@fortawesome/free-solid-svg-icons";
 
-import profile from './profile.png';
-import { faAppStore, faGithub, faGooglePlay } from '@fortawesome/free-brands-svg-icons';
-import { } from '@fortawesome/free-solid-svg-icons';
+import {
+  faAppStore,
+  faGithub,
+  faGooglePlay,
+} from "@fortawesome/free-brands-svg-icons";
+
+import profile from "./profile.png";
 
 export const navigation = {
-	name: "Hashir",
-	links: [
-		{
-			title: "About",
-			link: "#about",
-		},
-		{
-			title: "Projects",
-			link: "#projects",
-		},
-		{
-			title: "Contact",
-			link: "#contact",
-		},
-		{
-			title: "Links",
-			link: "/links",
-		},
-	],
-}
+  name: "Manohar Reddy",
+  links: [
+    {
+      title: "About",
+      link: "#about",
+    },
+    {
+      title: "Projects",
+      link: "#projects",
+    },
+    {
+      title: "Contact",
+      link: "#contact",
+    },
+    {
+      title: "Links",
+      link: "/links",
+    },
+  ],
+};
 export const intro = {
-	title: "Hey, I'm Hashir",
-	description: "A Computer Engineer creating mobile apps and static websites.",
-	image: profile.src,
-	buttons: [
-		{
-			title: "Contact Me",
-			link: "#contact",
-			isPrimary: true,
-		},
-		{
-			title: "Resume",
-			link: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
-			isPrimary: false,
-		},
-	],
-}
+  title: "Hey, I'm Manohar",
+  description: "A Computer Engineer/Architect crafting great products.",
+  image: profile.src,
+  buttons: [
+    {
+      title: "Contact Me",
+      link: "#contact",
+      isPrimary: true,
+    },
+    {
+      title: "Resume",
+      link: "https://drive.google.com/file/d/1WsTlu9RG1aOvvPj0dRvi6TLE3pCLxh5B/view?usp=sharing",
+      isPrimary: false,
+    },
+  ],
+};
 
 export const about = {
-	title: "Who I am",
-	description: [
-		"I graduated from National University of Sciences and Technology (NUST) in 2020 with a degree in Computer Engineering. I kick started my professional career as a mobile application developer working remotely for a UK based startup — Lessgo.",
-		"The tech industry is ever-evolving and I love being able to grow with it, while continually solidifying the fundamentals. I opensource my code from a place of empathy - for future developers, teammates, users, and with accessibility in mind. I also love joining communities, helping and mentoring new developers, and supporting organizations to promote diversity in tech. I’m sharing my programming journey on instagram, helping people who are just getting into the space of programming.",
-		"When I’m not programming, I focus on my hobbies which are: diary writing, doodling, meeting people and growing my network.",
-	],
-}
+  title: "Who I am",
+  description: [
+    "Highly skilled Full Stack Software Architect/Developer with over a decade of experience in architecting, developing, and deploying robust and scalable software applications. Proven track record of leading and mentoring teams to deliver projects on time. Adept in a wide range of technologies including Node.js, Angular, AWS, and Kubernetes.",
+  ],
+};
 
 export const work = {
-	title: "What I do",
-	cards: [
-		{
-			title: "Mobile App Development",
-			description: "I create pixel perfect iOS and Andriod apps using Flutter.",
-			icons: null,
-		},
-		{
-			title: "Web Development",
-			description: "I create responsive static websites using Reactjs.",
-			icons: null,
-		}
-	],
-}
+  title: "What I do",
+  cards: [
+    {
+      title: "API Development",
+      description: "I create best in class API's with Node.js Asp.net.",
+      icons: null,
+    },
+    {
+      title: "Web Development",
+      description: "I create responsive websites using AngularJs and ReactJs.",
+      icons: null,
+    },
+  ],
+};
 
 export const projects = {
-	title: "Projects",
-	cards: [
-		{
-			title: "StarBook",
-			description: "A digital diary and mood tracking app that helps you in keeping track of your mood and productivity throughout the month/year.",
-			icons: [
-				{
-					icon: faAppStore,
-					link: "https://apps.apple.com/us/app/starbook-journal-ai-diary/id1552418289",
-				},
-				{
-					icon: faGithub,
-					link: "https://github.com/hashirshoaeb/star_book",
-				},
-			]
-		},
-		{
-			title: "QuranTalk",
-			description: "An emotional well being and mental health app. The app helps people to navigate their emotions in the light of the Quran.",
-			icons: [
-				{
-					icon: faAppStore,
-					link: "https://apps.apple.com/us/app/qurantalk/id1563425149",
-				},
-				{
-					icon: faGooglePlay,
-					link: "https://play.google.com/store/apps/details?id=com.ayahemotion.quran_talk",
-				},
-			]
-		},
-		{
-			title: "Portfolio",
-			description: "A portfolio website template that helps you showcase your work, projects and skills as a software developer or freelancer.",
-			icons: [
-				{
-					icon: faGithub,
-					link: "https://github.com/hashirshoaeb/portfolio",
-				},
-			]
-		},
-	],
-}
+  title: "Projects",
+  cards: [
+    {
+      title: "ALTUS PERFORMANCE PLATFORM ",
+      description:
+        "Spearheaded the development of the cloud-native Altus Performance Platform using cutting-edge serverless technologies.",
+    },
+    {
+      title: "FNMAGATEWAY APPLICATION",
+      description:
+        "Led as Associate Architect, taking ownership of technical aspects and project delivery.",
+    },
+    {
+      title: "QUOTING",
+      description:
+        "Engineered microservices to generate accurate vehicle quotes based on location-specific fees and taxes.",
+    },
+  ],
+};
 
 export const contact = {
-	title: "Get in touch",
-	description: "Coffee Chat! Please do not hesitate to schedule a meeting. Alternatively, feel free to reach out directly by email at hashirshoaeb@gmail.com.",
-	buttons: [
-		{
-			title: "Email Me",
-			link: "mailto:hashirshoaeb@gmail.com",
-			isPrimary: true,
-		},
-		{
-			title: "Schedule Meeting",
-			link: "",
-			isPrimary: false,
-		},
-	]
-}
+  title: "Get in touch",
+  description:
+    "Coffee Chat! Please do not hesitate to schedule a meeting. Alternatively, feel free to reach out directly by email at manohar.gaddam@live.com.",
+  buttons: [
+    {
+      title: "Email Me",
+      link: "mailto:manohar.gaddam@live.com",
+      isPrimary: true,
+    },
+    {
+      title: "Linked In",
+      link: "https://www.linkedin.com/in/manohar-gaddam/",
+      isPrimary: true,
+    },
+  ],
+};
 
-// SEARCH ENGINE 
+// SEARCH ENGINE
 export const SEO = {
-	// 50 - 60 char  
-	title: "Hashir Shoaib | Computer Engineer | Flutter | Reactjs developer",
-	description: "I create mobile apps and static websites. I graduated from National University of Sciences and Technology (NUST) in 2020 with a degree in Computer Engineering.",
-	image: profile.src,
-}
+  // 50 - 60 char
+  title: "Manohar Reddy | Computer Engineer | Full Stack developer",
+  description: "A Computer Engineer/Architect crafting great products.",
+  image: profile.src,
+};
 
 export const links = {
-	image: profile.src,
-	title: "@hashirshoaeb",
-	description: "Computer Engineer | Flutter | Reactjs Developer",
-	cards: [
-		{
-			title: "My website",
-			link: "https://hashirshoaeb.com/",
-		},
-		{
-			title: "QuranTalk App",
-			link: "https://www.qurantalk.app/",
-		},
-		{
-			title: "StarBook App",
-			link: "https://starbook.dev/",
-		},
-		{
-			title: "My GitHub",
-			link: "https://github.com/hashirshoaeb/",
-		},
-		{
-			title: "My LinkedIn",
-			link: "https://www.linkedin.com/in/hashirshoaeb/",
-		},
-	]
-}
+  image: profile.src,
+  title: "@manohar-gaddam",
+  description: "Computer Engineer | Flutter | Reactjs Developer",
+  cards: [
+    {
+      title: "My LinkedIn",
+      link: "https://www.linkedin.com/in/manohar-gaddam/",
+    },
+  ],
+};
